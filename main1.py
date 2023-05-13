@@ -20,22 +20,22 @@ def main():
 
     # For use in games that are 3rd person and character model interferes with the autoaim
     # EXAMPLE: Fortnite and New World
-    aaRightShift = 0
+    aaRightShift = 150
 
     # Autoaim mouse movement amplifier
-    aaMovementAmp = .8
+    aaMovementAmp = .5
 
     # Person Class Confidence
     confidence = 0.4
 
     # What key to press to quit and shutdown the autoaim
-    aaQuitKey = "Q"
+    aaQuitKey = "`"
 
     # If you want to main slightly upwards towards the head
-    headshot_mode = True
+    headshot_mode = False
 
     # Displays the Corrections per second in the terminal
-    cpsDisplay = True
+    cpsDisplay = False
 
     # Set to True if you want to get the visuals
     visuals = False
