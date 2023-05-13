@@ -20,7 +20,7 @@ def main():
 
     # For use in games that are 3rd person and character model interferes with the autoaim
     # EXAMPLE: Fortnite and New World
-    aaRightShift = 0
+    aaRightShift = 100
 
     # Autoaim mouse movement amplifier
     aaMovementAmp = .8
